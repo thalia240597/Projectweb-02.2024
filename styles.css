@@ -1,0 +1,22 @@
+body{ background-color:darksalmon;}
+.logo{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+.navigation{
+    text-align:justify;
+    background-color: brown;
+}
+.header{
+    background-color:rgb(245, 138, 99);
+}
+.navigation a {
+    color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
+}
