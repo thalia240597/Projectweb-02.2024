@@ -1,11 +1,13 @@
-body{ background-color:darksalmon;}
+body{ background-color:darksalmon;
+margin: 0px;
+}
 .logo{
     max-width: 100px;
     display: block;
     margin: auto;
 }
 .navigation{
-    text-align:justify;
+    text-align:right;
     background-color: brown;
 }
 .header{
@@ -19,4 +21,23 @@ body{ background-color:darksalmon;}
     padding: 10px;
     text-decoration: none;
 
+}
+
+.banner{
+            /* vh = viewport height = windows height*/
+    min-height: 50vh;
+    background-image: url("tea.jpg");
+    Background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.banner h1{
+
+text-align: center;
+margin: 0px;
+padding: 5vh;
+color: rgb(255, 255, 255);
+font-size: 4em;
+text-shadow: 2px 2px 5px darksalmon;
 }
