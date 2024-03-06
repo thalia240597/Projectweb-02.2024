@@ -4,14 +4,16 @@ margin: 0px;
 .logo{
     max-width: 100px;
     display: block;
-    margin: auto;
+  
 }
 .navigation{
     text-align:right;
-    background-color: brown;
+    
 }
 .header{
     background-color:rgb(245, 138, 99);
+    display: flex;
+    justify-content: space-between;
 }
 .navigation a {
     color:beige;
@@ -41,3 +43,4 @@ color: rgb(255, 255, 255);
 font-size: 4em;
 text-shadow: 2px 2px 5px darksalmon;
 }
+
